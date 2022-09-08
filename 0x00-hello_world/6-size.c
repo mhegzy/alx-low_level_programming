@@ -1,22 +1,22 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
- * main - Print the sizeof many var types
+ * main - print the sideof var type
  *
  * Return: always 0
  */
 int main(void)
 {
-	char x;
-	int y;
-	long int z;
-	long long int a;
-	float b;
-
-	printf("size of a char: %d bytes(s)\n", sizeof(x));
-	printf("size of a int: %d bytes(s)\n", sizeof(y));
-	printf("size of a long int: %d bytes(s)\n", sizeof(z));
-	printf("size of a long long int: %d bytes(s)\n", sizeof(a));
-	printf("size of a float: %d bytes(s)\n", sizeof(b));
+	int a;
+	var b;
+	long int c;
+	long long int d;
+	float e;
+	printf("size of int :%d byte(s)\n", sizeof(a));
+	printf("size of char: %d byte(s)\n", sizeof(b));
+	printf("size of long int: %d byte(s)\n", sizeof(c));
+	printf("size of long long int: %d byte(s)\n", sizeof(d));
+	printf("size of float: %d byte(s)\n", sizeof(e));
 	return (0);
 }
+
