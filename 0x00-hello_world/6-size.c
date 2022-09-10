@@ -8,15 +8,15 @@
 int main(void)
 {
 	int a;
-	var b;
+	char b;
 	long int c;
 	long long int d;
 	float e;
-	printf("size of int :%d byte(s)\n", sizeof(a));
-	printf("size of char: %d byte(s)\n", sizeof(b));
-	printf("size of long int: %d byte(s)\n", sizeof(c));
-	printf("size of long long int: %d byte(s)\n", sizeof(d));
-	printf("size of float: %d byte(s)\n", sizeof(e));
+
+	printf("size of int: %ld byte(s)\n", sizeof(a));
+	printf("size of char: %ld byte(s)\n", sizeof(b));
+	printf("size of long: %ld byte(s)\n", sizeof(c));
+	printf("size of long long: %ld byte(s)\n", sizeof(d));
+	printf("size of float: %ld byte(s)\n", sizeof(e));
 	return (0);
 }
-
