@@ -3,7 +3,7 @@
 /**
  * rev_string - This function reverses a string and prints on the stdout
  * @s: Pointer paramater
- * 
+ *
  */
 
 void rev_string(char *s)
